@@ -51,11 +51,10 @@ export const config = {
   // 可以填写【动画，漫画，游戏，小说，原创，网络，其他】； 随机则填写 ""
   LITERARY_PREFERENCE: "",
   
-
   /**
    * 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔
    */
-  USERS: [ocl5F6Fwps2Z5_sTAoLJgs5YBKSg，
+  USERS: [ocl5F6Fwps2Z5_sTAoLJgs5YBKSg]
     {
       // 想要发送的人的名字
       name: "宝贝",
@@ -86,19 +85,6 @@ export const config = {
         {"keyword": "love_day", date: "2022-09-13"},
       ]
     },
-    {
-      name: "宝贝",
-      id: "",
-      useTemplateId: "",
-      province: "",
-      city: "",
-      horoscopeDate: '',
-      horoscopeDateType: '',
-      openUrl: "https://wangxinleo.cn",
-      festivals: [],
-      customizedDateList: []
-    },
-
   /**
    * 【推送完成提醒】 相关，主要用来展示发送是否成功/失败的数据
    */
@@ -166,6 +152,3 @@ export const config = {
     * keyword是指暴露给测试号的模板字段，填什么就暴露什么, 请注意不要和README的出参表中的字段重复。
     * 比如：keyword: "love_date" ，在测试号中就是 {{ love_date.DATA }}
     * */
-  CUSTOMIZED_DATE_LIST: [
-    // 在一起的日子
-  ],
